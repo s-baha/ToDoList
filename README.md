@@ -1,16 +1,24 @@
 Task Manager App
+
 Приложение для управления задачами с возможностью регистрации, авторизации и работы со списком задач, реализованное с использованием Jetpack Compose.
 
 Технологии
-Jetpack Compose — декларативный подход к созданию UI
-MVVM (Model-View-ViewModel) — архитектурный шаблон
-Navigation Compose — навигация между экранами
-Kotlin DSL — конфигурация Gradle
-Kotlin — основной язык программирования
+
+1)Jetpack Compose — декларативный подход к созданию UI
+
+2)MVVM (Model-View-ViewModel) — архитектурный шаблон
+
+3)Navigation Compose — навигация между экранами
+
+4)Kotlin DSL — конфигурация Gradle
+
+5)Kotlin — основной язык программирования
 
 Структура проекта
 app/
- └── src/
+
+ └── src
+ 
       ├── main/
       │   ├── java/com/example/project/
       │   │   ├── ui/screens/auth/         // Экраны авторизации и регистрации
@@ -27,8 +35,16 @@ git clone https://github.com/s-baha/ToDoList
 cd task-manager-app
 
 Откройте проект в Android Studio.
+
 Убедитесь, что установлены:
+
   Android SDK (API 33+)
+  
   Kotlin 1.9+
+  
   Поддержка Jetpack Compose
+  
 Нажмите "Run" для запуска приложения на эмуляторе или устройстве.
+
+
+
